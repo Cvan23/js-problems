@@ -1,5 +1,4 @@
 const arr1 = [1,3,2,1,4,3,5];
-const arr2 = [];
 
 function numCompare(num1, num2) {
   return num1 - num2;
