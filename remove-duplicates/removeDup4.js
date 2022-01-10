@@ -17,8 +17,9 @@ for(let point2 = 1; point2 < arr1.length -1; point2++) {
     arr1[point1] = arr1[point2];
 
     if(arr1[point1] === arr1[point2]) {
-        arr1.splice(point2,1); 
+        arr1.splice(point2, 1); 
     }
   } 
 }
+
 console.log(arr1);
